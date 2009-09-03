@@ -12,5 +12,5 @@ This is my (Rasmus Andersson alias rsms) fork of [macfusionapp.org](http://www.m
 
 ## Download
 
-Latest release build: [Macfusion.zip](http://cloud.github.com/downloads/rsms/Macfusion/Macfusion.zip)
+Latest release build: [Macfusion.zip](http://cloud.github.com/downloads/rsms/macfusion/Macfusion.zip)
 
