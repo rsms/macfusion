@@ -75,10 +75,10 @@ static NSString* advancedViewControllerKey = @"sshfsAdvancedView";
 	[arguments addObject: @"-ofollow_symlinks"];
 	[arguments addObject: [NSString stringWithFormat: @"-ovolname=%@", 
 						   [parameters objectForKey: kMFFSVolumeNameParameter]]];
-	[arguments addObject: @"-ologlevel=debug1"];
+	//[arguments addObject: @"-ologlevel=debug1"];
 	[arguments addObject: @"-f"];
-	[arguments addObject: [NSString stringWithFormat: @"-ovolicon=%@", 
-						   [parameters objectForKey: kMFFSVolumeIconPathParameter]]];
+	//[arguments addObject: [NSString stringWithFormat: @"-ovolicon=%@", 
+	//					   [parameters objectForKey: kMFFSVolumeIconPathParameter]]];
 	// MFLogS(self, @"Arguments are %@", arguments);
 	return [arguments copy];
 }
